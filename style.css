@@ -1,0 +1,200 @@
+* {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #000000;
+
+}
+
+
+div.shit {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 120px);
+/*    margin-left: 200px;
+    margin-right: 200px;*/
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+
+  }
+
+div.shit1 {
+    display: grid;
+    grid-template-columns: 720px ;
+    grid-template-rows: 60px;
+    max-width: 716px;
+    margin: auto;
+    margin-top: 150px;
+    
+
+}
+
+
+input.search {
+    width: 660px;
+    text-align: center;
+    height: 50px;
+    font-size: 13.5px;
+    outline: none;
+/*    position: absolute;*/
+    color: #97cdfd;
+    background-color: #1b232b;
+    outline: none;
+    border: 2px solid #9b9b9b;
+    border-right: 0px;
+
+    }
+
+
+button.go {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #9b9b9b;
+    border-left: 0px;
+    transition: background-color 0.3s, border-radius 0.3s;
+    background-color: #1b232b;
+    color: #97cdfd;
+    margin-left: -9px;
+    vertical-align: bottom;
+
+
+}
+button.go:hover {
+    background-color: #97cdfd;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #1b232b ;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #646464;
+    padding: 20px;
+    filter: invert(0);
+    background-color: #e4dcd4;
+    filter: invert(1);
+    transition: border-radius 0.3s;
+}
+
+img:hover {
+    border: 2px solid #111111;
+    box-shadow: 0px 0px 8px 8px #e5ddd6;
+    background-color: #e5ddd6;
+    border-radius: 10px;
+
+}
+
+div.icon1 {
+    height: 110px;
+    width: 94px;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+
+div.icon2 {
+    height: 110px;
+    width: 110px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+}
+
+div.icon3 {
+    height: 110px;
+    width: 110px;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+
+}
+div.icon4 {
+    height: 110px;
+    width: 110px;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+      
+  
+
+}
+
+div.icon5 {
+    height: 94px;
+    width: 94px;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+
+}
+
+div.icon6 {
+    height: 94px;
+    width: 94px;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+
+
+
+
+div.bookmarks {
+    height: 250px;
+    width: 200px;
+    background-color: #1b232b;
+    border: 2px solid #9b9b9b;   
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    transition: border-radius 0.3s, background-color 0.3s;
+    
+}
+
+div.bookmarks:hover {
+    border: 2px solid rgb(238, 238, 238);
+    box-shadow: 0px 0px 8px 8px #1a2229;
+    background-color: #1a2732;
+    border-radius: 10px;
+
+}
+
+a:visited, a:link, a:active {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 20px;
+    text-indent: 2px;
+    background-color: inherit;
+}
+a {
+    line-height: 1.7;
+}
+p {
+    color: #97cdfd;
+    font-size: 25px;
+    background-color: inherit;
+}
+a:hover {
+    color: #97cdfd;
+}
+input:focus::placeholder {
+    color: transparent;
+}
